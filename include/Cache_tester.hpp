@@ -1,7 +1,7 @@
 // Copyright 2020 Danil Postvaykin <postvaykin01@mail.ru>
 
-#ifndef INCLUDE_HEADER_HPP_
-#define INCLUDE_HEADER_HPP_
+#ifndef INCLUDE_CACHE_TESTER_HPP_
+#define INCLUDE_CACHE_TESTER_HPP_
 
 #include <vector>
 #include <iostream>
@@ -38,4 +38,4 @@ class Cache_tester
   int min_size;
   int max_size;
 };
-#endif // INCLUDE_HEADER_HPP_
+#endif // INCLUDE_CACHE_TESTER_HPP_

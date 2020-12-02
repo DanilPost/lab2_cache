@@ -114,7 +114,8 @@ void Cache_tester::experiment_reverse(int* array, int size, int i)
   }
   auto finish = std::chrono::high_resolution_clock::now();
   b += b;
-  float r_time = std::chrono::duration_cast<std::chrono::microseconds>(finish - start)
+  float r_time =
+      std::chrono::duration_cast<std::chrono::microseconds>(finish - start)
       .count();
   r_time = r_time / number_of_runs;
   reverse.time.push_back(r_time);
@@ -134,7 +135,8 @@ void Cache_tester::experiment_random(int* array, int size, int i, int *shag)
   }
   auto finish = std::chrono::high_resolution_clock::now();
   b += b;
-  float r_time = std::chrono::duration_cast<std::chrono::microseconds>(finish - start)
+  float r_time =
+      std::chrono::duration_cast<std::chrono::microseconds>(finish - start)
       .count();
   r_time = r_time / number_of_runs;
   random.time.push_back(r_time);
